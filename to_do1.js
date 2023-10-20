@@ -30,11 +30,9 @@ listContainer.addEventListener("click", function(e){
     }
 },false);
 
-
 function saveData(){
     localStorage.setItem("data", listContainer.innerHTML);
 }
-
 function showTask(){
     const savedData = localStorage.getItem("data");
 
@@ -49,7 +47,7 @@ function showTask(){
             <li>Task 4</li>
             <li>Task 5</li>
         `;
+        saveData();
      }
 }
 
-showTask()
