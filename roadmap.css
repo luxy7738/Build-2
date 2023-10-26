@@ -7,6 +7,15 @@
 body {
     background: linear-gradient(135deg, #E97551, #D2B48C)
 }
+header {
+    text-align: center;
+    padding-top: 75px;
+    color: white;
+    font-size: 24px;
+}
+ul {
+    list-style-position: inside;
+}
 .timeline {
     position: relative;
     max-width: 1200px;
