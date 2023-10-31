@@ -36,10 +36,10 @@ if (isset($_SESSION["user_id"])) {
                         <a href="#home" class="active">Start</a>
                     </li>
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href=''>About Us</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href='careerroadmap.html'>Services</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
