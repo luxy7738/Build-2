@@ -42,7 +42,7 @@ if (isset($_SESSION["user_id"])) {
                         <a href='careerroadmap.html'>Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href='contact.html'>Contact</a>
                     </li>
                     <li>
                         <a href='login.html'>Login</a>
