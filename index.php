@@ -1,3 +1,20 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION["user_id"])) {
+    
+    $mysqli = require __DIR__ . "/database.php";
+    
+    $sql = "SELECT * FROM user
+            WHERE id = {$_SESSION["user_id"]}";
+            
+    $result = $mysqli->query($sql);
+    
+    $user = $result->fetch_assoc();
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,16 +36,16 @@
                         <a href="#home" class="active">Start</a>
                     </li>
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href=''>About Us</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href='careerroadmap.html'>Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href='login.php'>Login</a>
+                        <a href='login.html'>Login</a>
                     </li>
                     
                 </ul>
@@ -74,3 +91,14 @@
         </section>
     </main></body>
 </html>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
