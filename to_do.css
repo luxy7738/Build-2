@@ -1,3 +1,36 @@
+/* Add styling for the progress container and bar */
+.progress-container {
+    width: 50%;
+    height: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    border-radius: 10px;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Style for the percentage text */
+.progress-percentage {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
 *{
     margin: 0;
     padding: 0;
@@ -80,7 +113,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(uncheck.png) ;
+    background-image: url(images/uncheck.png) ;
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -93,7 +126,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(checked.png);
+    background-image: url(images/checked.png);
 }
 
 ul li span{
