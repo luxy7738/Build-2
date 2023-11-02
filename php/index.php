@@ -26,7 +26,7 @@ if (isset($_SESSION["user_id"])) {
     <header>
         <h1>Technical Advancement - Excel</h1>
     </header>
-    <Br><a href='../html/to_do_menteeexcel.html'
+    <Br><div><a href='../html/to_do_menteeexcel.html'></div>
     <div class="timeline">
         <div class="container left-container">
             <img src="../images/number-1.png">
