@@ -18,78 +18,154 @@ if (isset($_SESSION["user_id"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steep Success</title>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="../css/roadmap.css">
 </head>
 <body>
     <header>
-        <div class="header_container container">
-            <div class="nav">
-                <a href="#" class="logo">Steep Success</a>
-                
-                <ul class="menu active">
-                    <li>
-                        <a href="#home" class="active">Start</a>
-                    </li>
-                    <li>
-                        <a href=''>About Us</a>
-                    </li>
-                    <li>
-                        <a href='careerroadmap.html'>Services</a>
-                    </li>
-                    <li>
-                        <a href='contact.html'>Contact</a>
-                    </li>
-                    <li>
-                        <a href='login.html'>Login</a>
-                    </li>
-                    
-                </ul>
-                
-        </div>
-        
+        <h1>Technical Advancement - Excel</h1>
     </header>
-    <main>
-        <section class="home" id="home">
+    <div class="timeline">
+        <div class="container left-container">
+            <img src="../images/number-1.png">
+            <div class="text-box">
+                <h2>Excel Orientation</h2>
+                <small>2 Weeks</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Schedule an initial Excel orientation session.</li>
+                    <li>Provide an overview of Excel's importance.</li>
+                    <li>Help mentees set specific Excel learning goals.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Familiarize themselves with Excel's interface.</li>
+                    <li>Identify areas of Excel they wish to master.</li>
+                    <li>Set preliminary learning objectives.</li>
+                </ul>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
 
-            <div class="home_container container">
-                <div class="home_content">
-                    <div class="content">
-                        <h1>We Create <br>Solutions <span> for <br> Your Business</span></h1>
-                        <p>"Scaling Heights, One Mentor at a Time."</p>
-                        <a href="#" class="btn">Get Started</a>
-                    </div>
-                </div>
-                <a href="#about" class="scroll_down">
-                    <span>Scroll Down</span>
-                    <i class="uil uil-mouse-alt arrow_down"></i>                
-                </a>
+        <div class="container right-container">
+            <img src="../images/number-2.png">
+            <div class="text-box">
+                <h2>Basic Functions</h2>
+                <small>1 Month</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Introduce basic Excel functions like SUM, AVERAGE, and COUNT.</li>
+                    <li>Explain data entry and formatting best practices.</li>
+                    <li>Review mentees' progress and address questions.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Practice basic functions on sample data.</li>
+                    <li>Apply formatting to create clear and organized spreadsheets.</li>
+                    <li>Share experiences and challenges.</li>
+                </ul>
+                <span class="right-container-arrow"></span>
             </div>
-        </section>
-        <section class="about" id="about">
-            <div class=".about_container container">
-                <div class="content">
-                    <h2 class="section_title">Our <span> About us</span></h2>
-                    <br>
-                    <p>Welcome to Steep Success, the nexus of ambition and mentorship. 
-                        Founded in 2023, our platform epitomizes the transformative impact of expert guidance on budding aspirations. 
-                        At Steep Success, we seamlessly connect mentees with mentors whose visions align, while providing an enriched 
-                        library of resources and fostering a space for interactive dialogues. We believe that every success story is 
-                        magnified by collective wisdom, and our mission is to make every ascent not just steep, but truly spectacular. 
-                        Join us on this enriching journey towards unparalleled growth.</p>
-                    <br> 
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="imgBox"></div>
-                <img src="images/homepage2.jpg" alt="" class="img-fluid">
+        </div>
+
+        <div class="container left-container">
+            <img src="../images/number-3.png">
+            <div class="text-box">
+                <h2>Data Analysis</h2>
+                <small>2 Months</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Teach data analysis techniques using Excel.</li>
+                    <li>Explore functions like VLOOKUP, HLOOKUP, and IF statements.</li>
+                    <li>Review case studies or practical examples.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Analyze real or simulated data using Excel.</li>
+                    <li>Start using VLOOKUP, HLOOKUP, and IF functions.</li>
+                    <li>Discuss their analysis and findings with mentors.</li>
+                </ul>
+                <span class="left-container-arrow"></span>
             </div>
-            
-        </section>
-    </main></body>
+        </div>
+
+        <div class="container right-container">
+            <img src="../images/number-4.png">
+            <div class="text-box">
+                <h2>Advanced Functions</h2>
+                <small>3 Months</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Introduce advanced functions, such as INDEX, MATCH, and PivotTables.</li>
+                    <li>Demonstrate data validation and conditional formatting.</li>
+                    <li>Help mentees apply these functions to real work scenarios.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Practice advanced functions on more complex data.</li>
+                    <li>Create PivotTables and apply data validation.</li>
+                    <li>Share reports and insights derived from these functions.</li>
+                </ul>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="../images/number-5.png">
+            <div class="text-box">
+                <h2>Automation and Efficiency</h2>
+                <small>4 Months</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Guide mentees on Excel automation using Macros and VBA.</li>
+                    <li>Show how to develop templates and automate repetitive tasks.</li>
+                    <li>Encourage the use of keyboard shortcuts for efficiency.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Create simple Excel Macros to automate tasks.</li>
+                    <li>Develop templates for common work scenarios.</li>
+                    <li>Implement keyboard shortcuts in their daily Excel use.</li>
+                </ul>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="../images/number-6.png">
+            <div class="text-box">
+                <h2>Mastery and Application</h2>
+                <small>6 Months</small>
+                <hr>
+                Mentor
+                <ul>
+                    <li>Promote Excel mastery through complex modeling or analysis.</li>
+                    <li>Encourage mentees to teach Excel concepts to others.</li>
+                    <li>Assess the overall Excel proficiency achieved.</li>
+                </ul>
+                Mentee
+                <ul>
+                    <li>Tackle challenging Excel projects or analyses.</li>
+                    <li>Share their knowledge and mentor peers.</li>
+                    <li>Conclude the mentorship with a final assessment of their Excel skills.</li>
+                </ul>
+
+                <!--Maintain a regular connection, supporting each other's growth.
+                Celebrate the journey's success in a closing meeting or event.
+                Transition into a collaborative peer and colleague relationship.-->
+
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+    </div>
+</body>
 </html>
     
     
