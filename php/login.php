@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             
             $_SESSION["id"] = $user["id"];
             
-            header("Location: php/index.php");
+            header("Location: index.php");
             exit;
         }
     }
