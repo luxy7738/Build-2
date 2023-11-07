@@ -57,3 +57,14 @@ button:hover {
     /* background-color: #45a049; */
     background-color: hsl(6, 97%, 55%);
 }
+
+
+.menu { 
+    display: flex;
+    align-items: center;
+    column-gap: 30px; 
+    transition: all .4s;
+}
+
+
+
