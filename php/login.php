@@ -36,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title> Mentee Login</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style="background-image: url('pics/tea.jpg'); background-size: cover;">
+<body>
     
     <h1>Login</h1>
     
