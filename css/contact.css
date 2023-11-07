@@ -52,3 +52,10 @@ h2{
 #map {
   border-radius: 5%;
 }
+
+.menu { 
+  display: flex;
+  align-items: center;
+  column-gap: 30px; 
+  transition: all .4s;
+}
