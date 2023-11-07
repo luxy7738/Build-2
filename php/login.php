@@ -34,15 +34,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> Mentee Login</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Login</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     
-    <h1>Login</h1>
+    <h1>Mentor Login</h1>
     
     <?php if ($is_invalid): ?>
         <em>Invalid login</em>
