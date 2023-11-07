@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <div class="form">
-            <h2>Mentor Login</h2>
+            <h2>Mentee Login</h2>
     <form method="post">
         <label for="User Name">Username</label>
         <input type="text" name="id" id="id" class="input-field"
