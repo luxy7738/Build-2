@@ -43,12 +43,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </head>
 <body>
     
-    <h1>Mentor Login</h1>
-    
     <?php if ($is_invalid): ?>
         <em>Invalid login</em>
     <?php endif; ?>
-    
+
+    <section class="box">
+        <div class="design">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="form">
+            <h2>Mentor Login</h2>
     <form method="post">
         <label for="User Name">username</label>
         <input type="text" name="id" id="id"
