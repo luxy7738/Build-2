@@ -58,5 +58,10 @@ h2{
   align-items: center;
   column-gap: 30px; 
   transition: all .4s;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
   color: white;
 }
