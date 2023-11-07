@@ -26,7 +26,6 @@ if (isset($_SESSION["user_id"])) {
     <header>
         <h1>Technical Advancement - Excel</h1>
     </header>
-    <Br><div><a href='../html/to_do_menteeexcel.html'></div>
     <div class="timeline">
         <div class="container left-container">
             <img src="../images/number-1.png">
@@ -35,6 +34,7 @@ if (isset($_SESSION["user_id"])) {
                 <small>2 Weeks</small>
                 <hr>
                 Mentor
+                <Br><div><a href='../html/to_do_menteeexcel.html'>link</a></div>
                 <ul>
                     <li>Schedule an initial Excel orientation session.</li>
                     <li>Provide an overview of Excel's importance.</li>
