@@ -33,21 +33,23 @@ if (isset($_SESSION["user_id"])) {
                 
                 <ul class="menu active">
                     <li>
-                        <a href='../html/homepage.html' class="active">Start</a>
+                        <a href='../html/homepage.html' class="active">Log Out</a>
                     </li>
                     <li>
-                        <a href="#about">About Us</a>
+                        <a href='../html/technicalroadmap_mentee.html'>Technical Road Map</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href='../html/contact.html'>Contact</a>
                     </li>
                     <li>
-                        <a href="#">Feedbacks</a>
+                        <a href='../html/feedback.html'>Feedback</a>
                     </li>
                     <li>
-                        <a href='../php/login.php'>Login</a>
+                        <a href='../html/careerroadmap_mentee.html'>Career Road Map</a>
                     </li>
-                    
+                    <li>
+                        <a href='../html/to_do_menteeexcel.html'>To Do</a>
+                    </li>
                 </ul>
                 
         </div>
