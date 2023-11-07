@@ -59,11 +59,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <h2>Mentor Login</h2>
     <form method="post">
         <label for="User Name">username</label>
-        <input type="text" name="id" id="id"
+        <input type="text" name="id" id="id" class="input-field"
                value="<?= htmlspecialchars($_POST["id"] ?? "") ?>">
         
         <label for="password">Password</label>
-        <input type="password" name="pw" id="pw">
+        <input type="password" name="pw" id="pw" class="input-field">
         
         <button>Log in</button>
     </form>
