@@ -34,15 +34,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Login</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentor Login</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style="background-image: url('pics/tea.jpg'); background-size: cover;">
+<body>
     
-    <h1>Login</h1>
+    <h1>Mentor Login</h1>
     
     <?php if ($is_invalid): ?>
         <em>Invalid login</em>
