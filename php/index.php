@@ -29,6 +29,8 @@ if (isset($_SESSION["user_id"])) {
     <header>
         <div class="header_container container">
             <div class="nav">
+
+            <div>Welcome, Dillon</div>
                 <a href="#" class="logo">Steep Success</a>
                 
                 <ul class="menu active">
