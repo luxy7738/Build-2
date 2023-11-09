@@ -6,11 +6,9 @@ if (isset($_SESSION["user_id"])) {
     
     $mysqli = require __DIR__ . "/database.php";
     
-   // $sql = "SELECT * FROM users
-           // WHERE id = {$_SESSION["user_id"]}";
+    $sql = "SELECT * FROM users
+           WHERE id = {$_SESSION["user_id"]}";
 
-    $sql = "SELECT username FROM users
-    WHERE id = {$_SESSION["user_id"]}";
             
     $result = $mysqli->query($sql);
     
