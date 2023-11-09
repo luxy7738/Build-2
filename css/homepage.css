@@ -6,7 +6,6 @@
     --third-color: ##D2B48C; 
     --text-color: #333; 
     --paragraph-color: #696a63; 
-
 }
 
 * { 
@@ -96,7 +95,7 @@ p {
 /* header */
 header { 
     padding: 25px 0; 
-    width: 100%; 
+    width: 0%; 
     position: fixed;
     background-color: #fff;
     z-index: 100;
@@ -105,6 +104,7 @@ header {
 .nav { 
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .logo { 
@@ -160,7 +160,6 @@ header {
     transform: scale(1);
 }
 
-/* Hamburger */
 .button { 
     background-color: transparent;
     border: none; 
