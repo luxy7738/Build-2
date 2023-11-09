@@ -30,7 +30,8 @@ if (isset($_SESSION["user_id"])) {
         <div class="header_container container">
             <div class="nav">
 
-            <div>Welcome, Dillon</div>
+            <div>Welcome, <?php echo $user["username"]; ?></div>
+
                 <a href="#" class="logo">Steep Success</a>
                 
                 <ul class="menu active">
