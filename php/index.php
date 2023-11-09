@@ -57,9 +57,9 @@ if (isset($_SESSION["user_id"])) {
             <div class="nav">
 
             <?php if (isset($user["username"])): ?>
-                    <div>Welcome, <?php echo $user["username"]; ?></div>
+                <div>Welcome, <?php echo $_SESSION["id"]; ?></div>
                 <?php endif; ?>
-                
+
                 <a href="#" class="logo">Steep Success</a>
                 
                 <ul class="menu active">
