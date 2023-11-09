@@ -57,7 +57,7 @@ if (isset($_SESSION["user_id"])) {
             <div class="nav">
 
             
-            <div>Welcome, <?php echo htmlspecialchars($_SESSION["id"]); ?></div>
+            <div>Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?></div>
 
                 
 
