@@ -12,6 +12,9 @@ if (isset($_SESSION["user_id"])) {
     $result = $mysqli->query($sql);
     
     $user = $result->fetch_assoc();
+
+    $sql = "SELECT username FROM users
+            WHERE id = {$_SESSION["user_id"]}";
 }
 
 ?>
