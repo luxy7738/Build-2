@@ -13,7 +13,7 @@
         html {
             display: table;
             margin: auto;
-            width: 45%;
+            width: 100%;
             background: linear-gradient(135deg, #E97551, #D2B48C)
             
         }
@@ -24,19 +24,20 @@
             text-align: center;
             border-style: solid;
             border-color: black;
-            border-radius: 10%;
+            /* border-radius: 10%; */
             /* background-color: #ffe9e3;  */
-            background-color: #FAF8ED;
+            /* background-color: #FAF8ED; */
         }
 
         h1 {
-            color: #002765;
+            color: black;
             margin-bottom: 20px;
             text-align: center;
         }
 
         p {
-            color: #748E63;
+            /* color: #748E63; */
+            color: black;
             list-style: none;
             font-size: 17px;
             user-select: none;
@@ -46,7 +47,7 @@
         }
 
         label {
-            color: #748E63;
+            color: black;
             list-style: none;
             font-size: 17px;
             user-select: none;
@@ -59,11 +60,13 @@
             border: none;
             outline: none;
             padding: 8px 13px;
-            background: #99B080;  
+            /* background: #99B080;   */
             color: black;
             font-size: 12px;
             cursor: pointer;
+            /* background: #fd402b;  */
             border-radius: 10px;
+            font-weight: bold; 
         }
 
         input {
@@ -81,10 +84,64 @@
         input:hover {
             background-color: hsl(6, 97%, 55%);
         }
+
+        option{
+            font-weight: bold;
+        }
+
+        .menu { 
+            display: flex;
+            align-items: center;
+            column-gap: 30px; 
+            transition: all .4s;
+            position: fixed;
+            top: 0;
+            right: 0;
+            padding: 10px; 
+ 
+            }
+
+        ul {
+            list-style-type: none;
+            font-weight: bold;
+            padding: 0; 
+            }
+
+        li a {
+            color: white;
+            text-decoration: none; 
+            }
+
+        li a:hover{
+            color: rgba(0, 0, 0, .7);;
+            text-decoration: underline;
+            }
         
     </style>
 </head>
 <body>
+
+    <div class="header_container container">
+        <div class="nav">
+            
+            <ul class="menu active">
+                <li>
+                    <a href='../html/homepage.html' class="active">Homepage</a>
+                </li>
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="../html/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href='../php/login.php'>Login</a>
+                </li>
+            </ul>   
+    </div>
    
     <h1>Mentorship Focus Selection</h1> 
     <p>As a mentee, select a field of focus for the mentorship relationship:</p> 
