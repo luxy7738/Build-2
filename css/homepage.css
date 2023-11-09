@@ -6,11 +6,10 @@
     --third-color: ##D2B48C; 
     --text-color: #333; 
     --paragraph-color: #696a63; 
-
 }
 
 * { 
-    margin: 0; 
+
     padding: 0;
     box-sizing: border-box;
 }
@@ -95,16 +94,16 @@ p {
 
 /* header */
 header { 
-    padding: 25px 0; 
     width: 100%; 
     position: fixed;
-    background-color: #fff;
+    background-color: #E97551;
     z-index: 100;
 }
 
 .nav { 
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .logo { 
@@ -160,7 +159,6 @@ header {
     transform: scale(1);
 }
 
-/* Hamburger */
 .button { 
     background-color: transparent;
     border: none; 
