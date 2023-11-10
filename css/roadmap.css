@@ -180,11 +180,11 @@ header {
 }
 
 .menu { 
-    padding-left: 1000px;
     display: flex;
     align-items: center;
     column-gap: 30px; 
     transition: all .4s;
+    padding-left: 100%;
 }
 
 .menu li a { 
