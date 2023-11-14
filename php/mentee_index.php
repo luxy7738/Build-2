@@ -40,7 +40,7 @@ if (isset($_SESSION["user_id"])) {
             <div class="nav">
 
             
-            <div>Welcome, <?php echo htmlspecialchars($_SESSION["username"]). You are signed in as a mentee. Your Mentor is; ?></div>
+            <div>Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?>. You are signed in as a mentee.</div>
 
                 
 
